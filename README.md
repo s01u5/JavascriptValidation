@@ -1,3 +1,5 @@
 # JavascriptValidation
 Registration Page Validation
-The Basic Javascript validatio for username,password,email form fields.
+#Login Page Validation
+#Forgot Page Validation
+The following code contains HTML,CSS and basic Javascript.
