@@ -1,0 +1,26 @@
+body{
+    /*background:linear-gradient(#D8C3A5,#8E8D8A);*/
+   background-color:#479761;
+}
+
+input{
+    height: 30px;
+}
+legend{
+    font-size: 40px;
+    font-family: Times New Roman;
+}
+button{
+    height:30px;
+    background-color:white; 
+}
+button:hover{
+    background-color:lightgreen;
+}
+fieldset{
+    height:90%;
+    width:50%;
+    border-color:black;
+    border-bottom: white;
+    background-color: #EDC7B7;
+}

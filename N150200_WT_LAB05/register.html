@@ -1,0 +1,29 @@
+<html>
+	<head>
+        <title>Registration PAGE</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="text/javascript" src="Scripts/script.js"></script>
+    </head>
+    <body>
+		<center>
+            <fieldset>
+			<legend>Registration Form</legend>
+			<form method="post" action="#">
+			<table border="0" cellpadding="5">
+				<tr><td>First Name:</td><td><input type="text" name="fname" id="fname"></td><td><span id="fbug"></span></td></tr>
+				<tr><td>Last Name:</td><td><input type="text" name="lname" id="lname" ></td><td><span id="lbug"></span></td></tr>
+                <tr><td>Phone number:</td><td><input type="tel" id="phone"></td><td><span id="telbug"></span></td></tr>
+                <tr><td>Email:</td><td><input type="email" id="email"></td><td><span id="mailbug"></span></td></tr>
+                <tr><td>Username:</td><td><input type="text" name="uname" id="uname"></td><td><span id="userbug"></span></td></tr>
+				<tr><td>Password:</td><td><input type="text" name="password" id="pass"></td><td><span id="passbug"></span></td></tr>
+				<tr><td>Confirm Passwod:</td><td><input type="text" name="password" id="cpass" ></td><td><span id="cbug"></span></td></tr>
+                <tr>
+                <td colspan="2"><button type="Reset">Reset</button></td>
+                <td><button type="Register">Register</button></td></tr>
+                </table>
+                <center><input type="submit" value="submit" onclick="registerValidate(); return false;"></center>
+            </form>
+        </fieldset>
+        </center>
+    </body>
+</html>

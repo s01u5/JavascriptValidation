@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="text/javascript" src="Scripts/script.js"></script>
+	</head>
+	<body>
+		<center>
+		<fieldset>
+		<form method="post" action="#">
+			<table border="0" cellpadding="5">
+					<h1>Login</h1>
+					<tr><td>Username</td><td><input type="text" name="uname" id="uname"></td><td><span id="userbug"></span></td></tr>
+					<tr><td>Password</td><td><input type="text" name="passwd" id="pass"></td><td><span id="passbug"></span></td></tr>
+					<tr>
+						<td><input type="submit" value="submit" onclick="loginvalidate(); return false;"></td>
+						<td><a href="register.html"><input type="button" value="Sign Up"></a></td><td></td>
+					</tr>
+					
+				
+			</table>
+			<br>
+			<a href="forgot.html"><input type="button" value="forgot passphrase"></a>
+		</form>
+	</fieldset>
+		</center>
+	</body>
+</html>

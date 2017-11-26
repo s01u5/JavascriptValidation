@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Lab_5</title>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="text/javascript" src="Scripts/script.js"></script>
+	</head>
+	<body>
+		<center>
+			<fieldset>
+			<h1>Reset Password</h1>
+			<form method="post" action="#">
+			<table border="0" cellpadding="5">
+				<tr><td>Username:</td><td><input type="text" name="uname" id="uname" ></td><td><span id="userbug"></span></td></tr>
+				<tr><td>Date Of Birth:</td><td><input type="date" name="dob" id="dob"></td><td><span id="dob"></span></td></tr>
+				<tr><td>Email:</td><td><input type="email" id="email"></td><td><span id="mailbug"></span></td></tr>
+				<tr><td>Phone:</td><td><input type="tel" id="phone"></td><td><span id="telbug"></span></td></tr>
+				<tr>
+				<td>Security Question</td>
+				<td>
+					<select>
+						<option value="q1">What is your favourite number?</option>
+						<option value="q2">What is your favourite food?</option>
+						<option value="q3">Who is your favourite singer?</option>
+						<option value="q4">Who is your favourite teacher?</option>
+					</select>
+				</td>
+				</tr>
+				<tr><td>Answer:</td><td><input type="text" name="answer" ></td></tr>
+				<tr><td><input type="submit" value="Submit" onclick="forgotpassword(); return false;"></td>
+				<td><input type="reset"></td></tr>
+				</table>
+			</form>
+		</fieldset>
+		</center>
+	</body>
+</html>
